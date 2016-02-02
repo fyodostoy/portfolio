@@ -1,0 +1,11 @@
+added styles directory, removed css , added main.scss, copied bootstrap css and font directories
+
+copied bootstrap js files to js/vendor
+
+added dist directory
+dis
+    styles
+    img
+    js
+
+create gulpfile
