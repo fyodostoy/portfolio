@@ -1,0 +1,37 @@
+/* OVER WRITE BOOTSTRAP */
+// NAVBAR 
+.navbar {
+    border-top: transparent solid 5px;
+    border-bottom: #ddd solid 1px;
+    margin-bottom: 0;
+    opacity: .97;
+}
+.navbar-default .navbar-brand:hover {
+    color: $lime;   
+}
+.nav>li{
+    border-bottom:  transparent solid 5px;
+    transition: border-bottom-color 700ms;
+}
+.nav>li:hover {
+    border-bottom-color: $lime;
+}
+// PANEL
+.panel, .panel-heading {
+    border-radius: $border-radius;
+}
+.panel-default>.panel-heading {
+    background-image: none;
+    background-color: $dark-grey;
+    border: $dark-grey;
+    color: $white ;
+}
+// BUTTON
+.btn {
+    border-radius: $border-radius;
+    padding: .75em;
+}
+//modal
+.modal-content {
+    border-radius: $border-radius;
+}

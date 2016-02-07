@@ -1,0 +1,76 @@
+$font-family : 'Open Sans', Calibri, Arial, sans-serif;
+$font-size:  16px;
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
+$font-color: #888;
+$line-height: 1.8em;
+
+body {
+    font-family: $font-family;
+    font-size:  $font-size;
+    color: $font-color;
+    font-weight: $font-regular;
+    line-height: $line-height;
+    @media only screen and (max-width: $tablet-max) and (min-width: $tablet-min) {
+        $line-height: 1.7em;
+    }
+    @media only screen and (max-width: $mobile) {
+        $line-height: 1.6em;
+    }    
+}
+p {}
+h1{
+    font-weight:$font-light;    
+    font-size: 2.8em;
+    color:   $lime;
+    @media (min-width: $desktop) {
+
+    }
+    @media (max-width: $tablet-max) and (min-width: $tablet-min) {
+        font-size: 2em;
+    }
+    @media (max-width: $mobile) {
+        font-size: 1.6em;
+    } 
+}
+h2, h3, label {
+    font-weight:400;    
+}
+h2 {
+    font-size: 1.8em;   
+    @media (min-width: $desktop) {
+
+    }
+    @media (max-width: $tablet-max) and (min-width: $tablet-min) {
+        font-size: 1.5em;  
+    }
+    @media (max-width: $mobile) {
+        font-size: 1.25em;  
+    }
+} 
+h3 {
+    font-size: 1.4em;
+    @media (min-width: $desktop) {
+
+    }
+    @media (max-width: $tablet-max) and (min-width: $tablet-min) {
+        font-size: 1.2em;
+    }
+    @media (max-width: $mobile) {
+        font-size: 1.1em;
+    }    
+}
+/*.title {
+    font-size: 1.2em;
+    color: $green;
+    @media (min-width: $desktop) {
+
+    }
+    @media (max-width: $tablet-max) and (min-width: $tablet-min) {
+
+    }
+    @media (max-width: $mobile) {
+
+    } 
+}*/ 

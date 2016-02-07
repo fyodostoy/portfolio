@@ -2,7 +2,7 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Arash Saheli: Portfolio</title>
         <meta name="description" content="">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
@@ -41,12 +41,13 @@
         <!--
         <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
         -->
-        
-        <link rel="stylesheet" href="styles/bootstrap.min.css">
-        <link rel="stylesheet" href="styles/bootstrap-theme.min.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="styles/normalize.css">
+        <!--<link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="styles/normalize.css">-->
+        <link rel="stylesheet" href="dist/styles/vendor.css">
         <link rel="stylesheet" href="dist/styles/main.css">
+
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
@@ -61,68 +62,89 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">CityTownVillage.com</a>
+              <a class="navbar-brand" href="#">Arash Saheli: Portfolio</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- Collect the nav links for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="design.html">Design</a></li>
-                <li><a href="#">Photos</a></li>
-                <li><a href="#">Stuff</a></li>
+                <li><a href="index.html">home</a></li>
+                <li><a href="web.html">web</a></li>
+                <li><a href="design.html">design</a></li>
+                <li><a href="photos.html">photos</a></li>
               </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
+            </div>
+          </div>
         </nav>
       </header>
       <main>
         <div id="mainImage"></div>
-        <div class="container">
-          <h1>This is one of the main header</h1>
-          <p>Anyone may create and view issues on public repositories. Your project’s issues page can be as simple or as sophisticated as you like. Filter by open and closed issues, assignees, labels, and milestones. Sort by issue age, number of comments, and update time. Keyboard shortcuts make issue assignment and labeling fast. Only teammates and collaborators can create and view issues on private repositories. Anyone may create and view issues on public repositories.</p>
-        </div>
-        <div class="container-fluid bg-primary">
-          <div class="container">
-          <h3>tHE PRIMARY BACK GROUNG THU SHAS BEEN DISPLAYED</h3>
-          <p>
-              Your project’s issues page can be as simple or as sophisticated as you like. Filter by open and closed issues, assignees, labels, and milestones. Sort by issue age, number of comments, and update time.
-
-              Keyboard shortcuts make issue assignment and labeling fast.
-              Only teammates and collaborators can create and view issues on private repositories.
-              Anyone may create and view issues on public repositories.
-          </p>
+        <div class="container white-container">
+          <div class="centered"><h1>ARASH SAHELI: PORTFOLIO</h1></div> 
+          <div class="centered"><h2>Web, Visual Design, Photography</h2></div>
+          <div class="row">
+            <div class="col-md-4 framed">
+              <h3>Web</h3>
+              <p>Nunc pharetra aliquet magna. Fusce ante neque, sagittis eu lectus in, ullamcorper mattis urna.</p>
+              <button type="button" class="btn  bg-lime">Read More</button>
+            </div>
+            <div class="col-md-4 framed">
+              <h3>Visual Design</h3>
+              <p>Ut consequat tristique nibh, at sodales metus eleifend eu. Phasellus consequat mauris eu erat porta.</p>
+            <button type="button" class="btn  bg-lime">Read More</button>
+            </div>
+            <div class="col-md-4 framed">
+              <h3> Photography</h3>
+              <p>Etiam vitae tincidunt mi, id posuere ligula. Suspendisse malesuada quam et elit malesuada tempor.</p>
+            <button type="button" class="btn bg-lime ">Read More</button>
+            </div>
+          </div>
+        </div> 
+          
+        <div class="container grey-container">
+          <div class="row">
+            <div class="col-md-4 framed">
+              <div class="panel panel-default">
+                <div class="panel-heading add-padding">
+                  <h3 class="panel-title">Some Title</h3>
+                </div>
+                <div class="panel-body remove-padding">
+                  <div class="col-md-12 remove-padding"><img src="img/photos/sm.jpg" alt="image"></div>
+                  <div class="col-md-12 add-padding">Etiam vitae tincidunt mi.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 framed">
+              <div class="panel panel-default">
+                <div class="panel-heading add-padding">
+                  <h3 class="panel-title">Another Title</h3>
+                </div>
+                <div class="panel-body remove-padding">
+                  <div class="col-md-12 remove-padding"><img src="img/photos/sm.jpg" alt="image"></div>
+                  <div class="col-md-12 add-padding">Suspendisse malesuada quam et elit.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 framed">
+              <div class="panel panel-default">
+                <div class="panel-heading add-padding">
+                  <h3 class="panel-title">Yet another</h3>
+                </div>
+                <div class="panel-body remove-padding">
+                  <div class="col-md-12 remove-padding"><img src="img/photos/sm.jpg" alt="image"></div>
+                  <div class="col-md-12 add-padding">Ut consequat tristique nibh.</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="container">
-          
-            <h2>THis is another header</h2>
-            <p>
-            Your project’s issues page can be as simple or as sophisticated as you like. Filter by open and closed issues, assignees, labels, and milestones. Sort by issue age, number of comments, and update time.
 
-            Keyboard shortcuts make issue assignment and labeling fast.
-            Only teammates and collaborators can create and view issues on private repositories.
-            Anyone may create and view issues on public repositories.             Your project’s issues page can be as simple or as sophisticated as you like. Filter by open and closed issues, assignees, labels, and milestones. Sort by issue age, number of comments, and update time.
+        <div class="add-2em-margin"></div>
 
-            Keyboard shortcuts make issue assignment and labeling fast.
-            Only teammates and collaborators can create and view issues on private repositories.
-            Anyone may create and view issues on public repositories.  
-            </p>
-            <h3>Some other header to consider</h3>
-            <p>
-            Your project’s issues page can be as simple or as sophisticated as you like. Filter by open and closed issues, assignees, labels, and milestones. Sort by issue age, number of comments, and update time.
-
-            Keyboard shortcuts make issue assignment and labeling fast.
-            Only teammates and collaborators can create and view issues on private repositories.
-            Anyone may create and view issues on public repositories.
-            </p>
-  
-        </div>
       </main>
-      <div class="container-fluid  bggrey">
+      <div class="container-fluid  bg-dark">
         <footer class="container">
-          <h4>This is my footer.</h4>
-          <p>Footer anyone may create and view issues on public repositories.</p>
+          <p>Arash Saheli: Portfolio</p>
         </footer>  
       </div>
       
